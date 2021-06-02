@@ -16,7 +16,6 @@ document.write("Hola " + nombreUsuario + " y " + nombre); */
 
 let edad = prompt("Cual es tu edad?");
 let edad2 = prompt("Cual es la edad de tu hermano?");
-let diferencia = edad2 - edad;
 console.log(edad);
 console.log(edad2);
 document.write("Tu edad es "+edad+" años<br>");
@@ -24,6 +23,7 @@ document.write("La edad de tu hermano es "+edad2+" años<br>");
 if(edad>edad2){
     diferencia = edad - edad2;
 }
-/* else
-diferencia = edad2 - edad; */
+else{
+    diferencia = edad2 - edad;
+}
 document.write("La diferencia de edades es "+diferencia+" años<br>");
